@@ -106,3 +106,33 @@ form p {
 form p span {
     color: orangered;
 }
+
+
+/* codes for responsive design  */
+
+@media screen and (max-width:375px) {
+    /* main styles  */
+    main {
+        width: 90%;
+        position: static;
+    }
+    main #advert-text-box {
+        width: 100%;
+        display: block;
+        padding-top: 50px;
+    }
+    main #form-box {
+        width: 100%;
+        float: none;
+        padding-bottom: 50px;
+    }
+    #advert-text-box div {
+        position: static;
+        text-align: center;
+    }
+    #advert-text-box div h1 {
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+    }
+}
