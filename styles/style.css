@@ -1,6 +1,7 @@
 body {
     /* position: relative; */
     background-color: hsl(0, 100%, 74%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img {
@@ -39,15 +40,19 @@ main #form-box {
 
 #advert-text-box div {
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 #advert-text-box div h1 {
+    font-size: 64px;
     font-weight: 700;
+    color: white;
 }
 
 #advert-text-box div p {
     font-size: 16px;
+    line-height: 32px;
+    color: white;
     /* background-color: orange; */
 }
 
@@ -59,6 +64,7 @@ main #form-box {
     background-color: rgb(8, 8, 121);
     padding: 15px;
     color: white;
+    border-radius: 10px;
 }
 
 #trial-text span {
@@ -69,6 +75,7 @@ form {
     background-color: white;
     padding-top: 25px;
     padding-bottom: 25px;
+    border-radius: 10px;
 }
 
 form input {
@@ -76,6 +83,11 @@ form input {
     margin: 25px auto 25px auto;
     padding: 15px;
     width: 80%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid hsl(246, 25%, 77%);
+    /* border-color: hsl(246, 25%, 77%); */
 }
 
 form input[type="submit"] {
