@@ -16,7 +16,7 @@ main {
     margin: 0 auto;
     position: absolute;
     top: 30%;
-    left: 30%;
+    /* left: 30%; */
 }
 
 main div {
@@ -27,10 +27,40 @@ main div {
 
 /* form styling  */
 
+#trial-text {
+    text-align: center;
+    background-color: rgb(8, 8, 121);
+    padding: 15px;
+    color: white;
+}
+
+#trial-text span {
+    font-weight: bolder;
+}
+
 form {
     background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 form input {
     display: block;
+    margin: 25px auto 25px auto;
+    padding: 15px;
+    width: 80%;
+}
+
+form input[type="submit"] {
+    width: 85% !important;
+    background-color: green;
+    color: white;
+}
+
+form p {
+    text-align: center;
+}
+
+form p span {
+    color: orangered;
 }
