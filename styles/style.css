@@ -4,6 +4,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* background image  */
+
 img {
     width: 99%;
     height: 99%;
@@ -11,6 +14,9 @@ img {
     z-index: 0;
     overflow: hidden;
 }
+
+
+/* main section styling starts */
 
 main {
     width: 60%;
@@ -21,9 +27,9 @@ main {
     left: 20%;
 }
 
-main #advert-text-box {
+main #advert-text-box div {
     width: 49%;
-    display: inline-block
+    display: inline-block;
 }
 
 main #form-box {
@@ -32,7 +38,7 @@ main #form-box {
 }
 
 
-/* first div in main  */
+/* first div in main section */
 
 #advert-text {
     position: relative;
@@ -40,7 +46,7 @@ main #form-box {
 
 #advert-text-box div {
     position: absolute;
-    top: 20%;
+    top: 10%;
 }
 
 #advert-text-box div h1 {
@@ -53,11 +59,10 @@ main #form-box {
     font-size: 16px;
     line-height: 32px;
     color: white;
-    /* background-color: orange; */
 }
 
 
-/* form styling  */
+/* form styling starts  */
 
 #trial-text {
     text-align: center;
@@ -101,6 +106,7 @@ form input[type="submit"] {
 
 form p {
     text-align: center;
+    padding: 0px 25px 0px 25px;
 }
 
 form p span {
@@ -110,7 +116,10 @@ form p span {
 
 /* codes for responsive design  */
 
-@media screen and (max-width:375px) {
+
+/* small screens */
+
+@media screen and (max-width:768px) {
     /* main styles  */
     main {
         width: 90%;
@@ -126,7 +135,9 @@ form p span {
         float: none;
         padding-bottom: 50px;
     }
-    #advert-text-box div {
+    /* advert text styling starts  */
+    main #advert-text-box div {
+        width: 99%;
         position: static;
         text-align: center;
     }
