@@ -1,6 +1,6 @@
 body {
     /* position: relative; */
-    background-color: orangered;
+    background-color: hsl(0, 100%, 74%);
 }
 
 img {
@@ -16,7 +16,7 @@ main {
     margin: 0 auto;
     position: absolute;
     top: 20%;
-    background-color: yellow;
+    /* background-color: yellow; */
     left: 20%;
 }
 
@@ -40,6 +40,15 @@ main #form-box {
 #advert-text-box div {
     position: absolute;
     top: 30%;
+}
+
+#advert-text-box div h1 {
+    font-weight: 700;
+}
+
+#advert-text-box div p {
+    font-size: 16px;
+    /* background-color: orange; */
 }
 
 
@@ -71,8 +80,10 @@ form input {
 
 form input[type="submit"] {
     width: 85% !important;
-    background-color: green;
+    background-color: hsl(154, 59%, 51%);
     color: white;
+    outline: none;
+    border: none;
 }
 
 form p {
