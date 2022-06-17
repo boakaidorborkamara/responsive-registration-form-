@@ -15,8 +15,9 @@ main {
     width: 70%;
     margin: 0 auto;
     position: absolute;
-    top: 30%;
-    /* left: 30%; */
+    top: 20%;
+    background-color: yellow;
+    left: 20%;
 }
 
 main div {
