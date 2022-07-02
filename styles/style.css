@@ -122,13 +122,14 @@ form p span {
 @media screen and (max-width:768px) {
     /* main styles  */
     main {
-        width: 90%;
+        width: 80%;
+        margin: 0 auto;
         position: static;
     }
     main #advert-text-box {
         width: 100%;
         display: block;
-        padding-top: 50px;
+        padding-top: 30px;
     }
     main #form-box {
         width: 100%;
@@ -145,5 +146,21 @@ form p span {
         font-size: 32px;
         font-weight: 700;
         color: white;
+    }
+    #trial-text {
+        position: relative;
+        z-index: 1;
+    }
+    form {
+        position: absolute;
+        z-index: 1;
+    }
+    /* background image  */
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        overflow: hidden;
     }
 }
